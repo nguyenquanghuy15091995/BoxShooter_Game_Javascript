@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="background.css">
+  <title>Defender Game</title>
+</head>
+
+<body>
+  <!-- <div id="background" class="background"></div> -->
+  <canvas id="game-area" class="game-canvas"></canvas>
+  <div class="action-control">
+    <button id="control-button" class="button-shoot" onclick="render()">PLAY</button>
+  </div>
+  <script src="collision-detection.js"></script>
+  <script src="object.js"></script>
+  <script src="game-control.js"></script>
+  <script src="keyboard-control.js"></script>
+</body>
+
+</html>
